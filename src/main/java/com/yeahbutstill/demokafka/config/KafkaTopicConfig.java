@@ -13,4 +13,9 @@ public class KafkaTopicConfig {
         return TopicBuilder.name("yeahbutstill-events").build();
     }
 
+    @Bean
+    public NewTopic yeahButStillJsonTopic() {
+        return TopicBuilder.name("yeahbutstillJson-events").build();
+    }
+
 }
